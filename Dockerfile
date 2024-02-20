@@ -11,7 +11,7 @@ COPY src src
 COPY tsconfig.json .
 # COPY public public
 
-COPY .env .
+# COPY .env .
 
 ENV NODE_ENV production
 CMD ["bun", "src/index.ts"]
